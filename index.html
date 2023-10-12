@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>LemoCode</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="Научим писать код и зарабатывать на этом уже через 6 месяцев 👋">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="LemoCode">
+    <meta name="twitter:description" content="Научим писать код и зарабатывать на этом уже через 6 месяцев 👋">
+    <meta name="twitter:creator" content="LemoCode">
+    <meta property="og:title" content="LemoCode">
+    <meta property="og:type" content="Article">
+    <meta property="og:description" content="Научим писать код и зарабатывать на этом уже через 6 месяцев 👋">
+    <meta property="og:site_name" content="LemoCode">
+    <link rel="stylesheet" media="all" href="css/app.css">
+    <script>var viewportmeta = document.querySelector('meta[name="viewport"]');
+if (viewportmeta) {
+  if (screen.width < 375) {
+    var newScale = screen.width / 375;
+    viewportmeta.content = 'width=375, minimum-scale=' + newScale + ', maximum-scale=1.0, user-scalable=no, initial-scale=' + newScale + '';
+  } else {
+    viewportmeta.content = 'width=device-width, maximum-scale=1.0, initial-scale=1.0';
+  }
+}</script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="main">
+        <div class="header js-header" id="header">
+          <div class="header__center center"><button class="header__burger js-header-burger"><span></span></button><a class="header__logo" href="index.html#"><img class="header__pic" src="img/logo.png" alt=""></a>
+            <div class="header__wrap js-header-wrap">
+              <nav class="header__nav"><a class="header__item" href="webinar/index.html">Webinar</a>
+
+              </nav>
+              <div class="header__photo"><img class="header__pic" src="img/menu-pic.png" alt=""></div>
+            </div>
+            <div class="header__search js-header-search"><button class="header__open js-header-open"><svg class="icon icon-search">
+                  <use xlink:href="img/sprite.svg#icon-search"></use>
+                </svg></button>
+              <div class="header__field"><input class="header__input" type="text" placeholder="Search ..."></div>
+            </div><a class="header__btn btn btn_pink" href="#contact_us">Узнать подробнее</a>
+          </div>
+          <div class="header__bg js-header-bg"></div>
+        </div>
+        <div class="main__center center">
+          <div class="main__wrap">
+            <h1 class="main__title title title_big" data-aos><span class="title__box"><span class="title__text">Начните </span></span><span class="title__box"><span class="title__text"><span class="title__line">карьеру</span></span></span><span class="title__box"><span class="title__text"> в IT</span></span><span class="title__box"></span></h1>
+            <div class="main__info info" data-aos="animation-scale-y" data-aos-delay="400">Научим писать код и зарабатывать на этом уже через 6 месяцев 👋</div>
+            <div class="main__control" data-aos="animation-scale-y" data-aos-delay="550"><a class="main__btn btn btn_purple" href="#contact_us">Записаться на курс</a><a class="main__link" href="index.html#">
+                <div class="main__icon"><img class="main__pic" src="img/play.svg" alt=""></div>
+                <div class="main__text">Посмотреть видео о нас</div>
+              </a></div>
+
+          </div>
+          <div class="main__view" data-aos>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-1.png" alt=""></div>
+            <div class="main__preview"><img class="main__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/main-pic-2.png" alt=""></div>
+            <div class="main__preview"><img class="main__pic" src="img/mouse.png" alt=""></div>
+            <div class="main__preview"><img class="main__pic" src="img/main-pic-3.png" alt=""></div>
+          </div>
+          <div class="main__circles">
+            <div class="main__circle"></div>
+            <div class="main__circle js-rellax" data-rellax-speed="2"></div>
+            <div class="main__circle js-rellax" data-rellax-speed="1"></div>
+            <div class="main__circle js-rellax" data-rellax-speed="2"></div>
+            <div class="main__circle js-rellax" data-rellax-speed=".3"></div>
+            <div class="main__circle"></div>
+            <div class="main__circle js-rellax" data-rellax-speed="1"></div>
+          </div>
+        </div>
+      </div>
+      <div class="features js-features">
+        <div class="features__center center">
+          <div class="features__head" data-aos="animation-scale-y">
+            <div class="features__stage stage">Почему мы?</div>
+            <div class="features__box">
+              <h2 class="features__title title">У нас все просто</h2>
+              <div class="features__info info">Никаких сложных объяснений, наши уроки поймет даже школьник 7 класса. Вам не нужно знать математику или английский язык. Все что нужно для старта, это ваша усидчивость и упорство.</div>
+            </div>
+          </div>
+          <div class="features__body">
+            <div class="features__container">
+              <div class="features__slider js-features-slider">
+                <div class="features__slide" data-aos="animation-scale-y">
+                  <div class="features__details">
+                    <div class="features__preview"><img class="features__pic" src="img/camera.png" alt=""></div>
+                    <div class="features__category">Поддержка</div>
+                    <div class="features__text">Вы получите максимум нашего внимания. Наши кураторы исследуют ваши сильные и слабые стороны и дают индивидуальные рекомендации. Мы контролируем каждое сообщение которое вы напишете, каждый шаг и каждое домашнее задание. </div>
+                  </div>
+                </div>
+                <div class="features__slide" data-aos="animation-scale-y" data-aos-delay="200">
+                  <div class="features__details">
+                    <div class="features__preview"><img class="features__pic" src="img/calendar.png" alt=""></div>
+                    <div class="features__category">Современные методы обучения</div>
+                    <div class="features__text">За 2 года работы мы создали метод обучения, основанный на уроках без “воды”. Каждый урок длится в среднем 12 минут и на выполнение заданий у вас уйдет не 2 часов. На наших уроках 80% практики, поэтому по окончанию, вы выйдете готовым специалистом с проектами в своем портфолио. </div>
+                  </div>
+                </div>
+                <div class="features__slide">
+                  <div class="features__details">
+                    <div class="features__preview"><img class="features__pic" src="img/camera.png" alt=""></div>
+                    <div class="features__category">Передача опыта</div>
+                    <div class="features__text">Наши преподаватели опытные специалисты, работающие в крупнейших компаниях Казахстана. Они знают как передать вам знания, которые реально применяются на практике и как устроиться в такие же крупные компании. Мы передаем опыт!</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="features__status js-features-status"></div>
+          </div>
+        </div>
+        <div class="features__circle js-rellax" data-rellax-speed="-.7"></div>
+        <div class="features__bg" data-aos data-aos-duration="1000"><img class="features__pic" src="img/features-pic-1.svg" alt=""></div>
+      </div>
+      <div class="access">
+        <div class="access__center center">
+          <div class="access__view" data-aos data-aos-delay="300">
+            <div class="access__preview"><img class="access__pic" src="img/access-pic-2.png" alt=""></div>
+            <div class="access__preview"><img class="access__pic js-parallax" data-scale="1.5" data-orientation="up" src="img/access-pic-1.png" alt=""></div>
+            <div class="access__preview"><img class="access__pic js-parallax" data-scale="1.5" data-orientation="down" src="img/main-pic-2.png" alt=""></div>
+          </div>
+          <div class="access__wrap" data-aos="animation-scale-y">
+            <div class="access__info">Мы - Ваш первый шаг  <br>Оставьте номер и мы расскажем, что делать дальше</div>
+            <form class="access__form"
+                  action="https://formspree.io/f/mnqkoepo"
+                  method="POST"
+            >
+              <div class="access__field"><input name="phone_number_from_main_page" class="access__input" type="number" placeholder="+7 747 747 4747">
+                <div class="access__icon"><img class="access__pic" src="img/sending-mail.svg" alt=""></div>
+              </div><button class="access__btn btn btn_purple" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+        <div class="access__circles">
+          <div class="access__circle" data-aos data-aos-offset="300"></div>
+          <div class="access__circle" data-aos data-aos-delay="100" data-aos-offset="300"></div>
+          <div class="access__circle" data-aos data-aos-delay="200" data-aos-offset="300"></div>
+        </div>
+        <div class="access__clouds">
+          <div class="access__cloud"><img class="access__pic js-parallax" data-scale="1.5" data-orientation="left" src="img/cloud.png" alt=""></div>
+          <div class="access__cloud"><img class="access__pic js-parallax" data-scale="1.5" data-orientation="right" src="img/cloud.png" alt=""></div>
+        </div>
+        <div class="access__balls">
+          <div class="access__ball"></div>
+          <div class="access__ball"></div>
+          <div class="access__ball"></div>
+          <div class="access__ball"></div>
+          <div class="access__ball js-rellax" data-rellax-speed="-1"></div>
+          <div class="access__ball"></div>
+          <div class="access__ball js-rellax" data-rellax-speed="1"></div>
+        </div>
+      </div>
+      <div class="layouts">
+        <div class="layouts__center center">
+          <div class="layouts__wrap">
+            <div class="layouts__head" data-aos="animation-scale-y">
+              <div class="layouts__stage stage">IT</div>
+              <h2 class="layouts__title title">Сфера IT<span class="title__color">.</span></h2>
+            </div>
+            <div class="layouts__info info" data-aos="animation-scale-y">самая высокооплачиваемая которая не теряет актуальность. С помощью IT вы можете работать удаленно, проявлять себя, зарабатывать больше и быть в тренде. </div>
+            <div class="layouts__list">
+              <div class="layouts__item" data-aos="animation-scale-y">
+                <div class="layouts__icon"><img class="layouts__pic" src="img/layout-1.svg" alt=""></div>
+                <div class="layouts__text">Вам не нужен опыт в IT </div>
+              </div>
+              <div class="layouts__item" data-aos="animation-scale-y">
+                <div class="layouts__icon"><img class="layouts__pic" src="img/layout-2.svg" alt=""></div>
+                <div class="layouts__text">Помогаем придти к цели в 10 раз быстрее</div>
+              </div>
+              <div class="layouts__item" data-aos="animation-scale-y">
+                <div class="layouts__icon"><img class="layouts__pic" src="img/layout-3.svg" alt=""></div>
+                <div class="layouts__text">Без рисков потери основного занятия</div>
+              </div>
+            </div>
+          </div>
+          <div class="layouts__view" data-aos>
+            <div class="layouts__preview"><img class="layouts__pic" src="img/layouts-pic-1.png" alt=""></div>
+            <div class="layouts__preview"><img class="layouts__pic" src="img/layouts-pic-2.png" alt=""></div>
+            <div class="layouts__preview"><img class="layouts__pic" src="img/layouts-pic-3.png" alt=""></div>
+            <div class="layouts__preview"><img class="layouts__pic" src="img/layouts-pic-4.png" alt=""></div>
+            <div class="layouts__preview"><img class="layouts__pic" src="img/layouts-pic-5.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+      <div class="like">
+        <div class="like__center center">
+          <div class="like__container">
+            <div class="like__wrap">
+              <h2 class="like__title title" data-aos="animation-scale-x">Обучение до мелочей<span class="title__color">.</span></h2>
+              <div class="like__text" data-aos="animation-scale-x" data-aos-delay="150">
+                <p>Подготовка охватывает все нюансы - от мелких, но важных тем, которые применяют эксперты в повседневной работе, и заканчивая методами заработка</p>
+              </div>
+              <div class="like__btn" data-aos="animation-scale-x" data-aos-delay="300"><a href="#contact_us"> <button href="#contact_us" class="btn btn_purple">Записаться на курс</button></a></div>
+            </div>
+            <div class="like__preview" data-aos><img class="like__pic" src="img/hand-1.png" alt=""></div>
+            <div class="like__circle"></div>
+            <div class="like__circles">
+              <div class="like__circle"></div>
+              <div class="like__circle js-rellax" data-rellax-speed="-1"></div>
+              <div class="like__circle js-rellax" data-rellax-speed=".8"></div>
+              <div class="like__circle"></div>
+              <div class="like__circle"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="work">
+        <div class="work__center center">
+          <div class="work__head">
+            <div class="work__stage stage">Развивайся всегда - Развивайся везде</div>
+            <h2 class="work__title title"><span class="title__color">Достигаем цели<br></span> вместе</h2>
+          </div>
+          <div class="work__details" data-aos="animation-translate-y" data-aos-duration="800">
+            <div class="work__icon"><img class="work__pic" src="img/balls.svg" alt=""></div>
+            <div class="work__text">Если у вас возникнут трудности, мы будем рядом в любую минуту. Ваш успех - наша главная цель, и мы гарантируем, что вы не будете брошены в одиночку.</div>
+          </div>
+        </div>
+        <div class="work__hands">
+          <div class="work__hand" data-aos data-aos-duration="800" data-aos-offset="0"><img class="work__pic js-parallax" data-scale="1.2" data-orientation="down" src="img/hand-2.png" alt=""></div>
+          <div class="work__hand" data-aos data-aos-duration="800" data-aos-offset="0"><img class="work__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/hand-3.png" alt=""></div>
+        </div>
+        <div class="work__wave"><img class="work__pic" src="img/wave.svg" alt=""></div>
+        <div class="work__preview" data-aos data-aos-duration="600"><img class="work__pic" src="img/work-pic.png" alt=""></div>
+        <div class="work__circles">
+          <div class="work__circle js-rellax" data-rellax-speed="1"></div>
+          <div class="work__circle"></div>
+          <div class="work__circle js-rellax" data-rellax-speed="-1"></div>
+          <div class="work__circle"></div>
+          <div class="work__circle"></div>
+        </div>
+        <div class="work__cursor" data-aos><img class="work__pic" src="img/cursor.png" alt=""></div>
+      </div>
+      <div class="teams">
+        <div class="teams__center center">
+          <div class="teams__head" data-aos="animation-scale-y">
+            <div class="teams__stage stage"></div>
+            <h2 class="teams__title title">Помогаем многим & многие пишут про нас<span class="title__color">.</span></h2>
+          </div>
+          <div class="teams__body">
+            <div class="teams__col" data-aos="animation-scale-y">
+              <h3 class="teams__title title title_sm">Отзывы выпускников</h3>
+            </div>
+            <div class="teams__col">
+              <div class="teams__container">
+                <div class="teams__slider js-teams-slider">
+                  <div class="teams__slide" data-aos="animation-scale-y" data-aos-delay="200">
+                    <div class="teams__line" style="background-color: #5956E9;"></div>
+                    <div class="teams__name" style="color: #C75C6F;">Нурбол</div>
+                    <div class="teams__text">“ Хочу поблагодарить LemoCode за те знания которые он дал мне. Благодаря этим знаниям в 19 лет я веду разработку для крупной компании и получаю хорошую прибыль. А также большое спасибо моему преподавателю Ерлану и ребятам из группы, которые всегда помогали когда у меня возникали вопросы ”</div>
+                    <div class="teams__user">
+                      <div class="teams__ava"><img class="teams__pic" src="img/ava-1.png" alt=""></div>
+                      <div class="teams__box">
+                        <div class="teams__man">@nurbolfootbal</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="teams__slide" data-aos="animation-scale-y" data-aos-delay="400">
+                    <div class="teams__line" style="background-color: #FAB8C4;"></div>
+                    <div class="teams__name" style="color: #5956E9;">Дулат</div>
+                    <div class="teams__text">“ У вас очень хороший педагогический состав. Сегодня я закончил курс Java разработки преподавателем моим был Ерлан. Он настолько интересно, а главное полезно преподносил информацию, что не понять было бы просто невозможно. Я бы с радостью пошел на его дополнительные курсы ”</div>
+                    <div class="teams__user">
+                      <div class="teams__ava"><img class="teams__pic" src="img/ava-1.png" alt=""></div>
+                      <div class="teams__box">
+                        <div class="teams__man">@_danevert_</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="teams__slide">
+                    <div class="teams__line" style="background-color: #5956E9;"></div>
+                    <div class="teams__name" style="color: #C75C6F;">Арнур</div>
+                    <div class="teams__text">“ Здравствуйте! Хотел бы оставить свой отзыв. Я закончил курсы Python разработка и хотел бы отметить пару вещей. Во первых это качество обучения и педагогов. Вы мастера своего дела. Во вторых обратная связь. Каждое мое задание проверяли с большой отдачей и говорили в каком направлении есть проблемы, а где у меня хорошо получается. Всем советую данный учебный центр! ”</div>
+                    <div class="teams__user">
+                      <div class="teams__ava"><img class="teams__pic" src="img/ava-1.png" alt=""></div>
+                      <div class="teams__box">
+                        <div class="teams__man">@twilin._.beach</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="teams__circle js-rellax" data-rellax-speed="1"></div>
+      </div>
+
+      <div class="tool">
+        <div class="tool__center center">
+          <div class="tool__container">
+            <div class="tool__wrap">
+              <h2 class="tool__title title" data-aos="animation-scale-y">Готовы начать свой путь?</h2>
+              <div class="tool__info info" data-aos="animation-scale-y" data-aos-delay="150">Получите 5 бесплатных уроков, где вы  узнаете с чего начать и напишете свой первый код </div>
+              <div class="tool__btn" data-aos="animation-scale-y" data-aos-delay="300"><a class="btn btn_white" href="#contact_us" data-effect="mfp-zoom-in">Получить</a></div>
+            </div>
+            <div class="tool__cloud"><img class="tool__pic js-parallax" data-scale="1.5" data-orientation="right" src="img/cloud.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="speed">
+        <div class="speed__center center">
+          <div class="speed__wrap">
+            <div class="speed__head" data-aos="animation-scale-y">
+              <h2 class="speed__title title">Практика - <br>друг эксперта<span class="title__color">.</span></h2>
+              <div class="speed__text">Каждый урок направлен на то, чтобы вы проделали работу</div>
+            </div>
+            <div class="speed__number" data-aos="animation-scale-y"><span>80</span>%</div>
+          </div>
+        </div>
+        <div class="speed__line"><img class="speed__pic" src="img/line.svg" alt=""></div>
+        <div class="speed__preview" data-aos>
+          <div class="speed__graphic"><img class="speed__pic" src="img/graphic.png" alt=""></div>
+          <div class="speed__plant"><img class="speed__pic js-parallax" data-scale="1.3" data-orientation="left" src="img/plant.png" alt=""></div>
+        </div>
+        <div class="speed__circles">
+          <div class="speed__circle js-rellax" data-rellax-speed="-1"></div>
+          <div class="speed__circle js-rellax" data-rellax-speed="1"></div>
+          <div class="speed__circle"></div>
+        </div>
+      </div>
+
+      <div class="design">
+        <div class="design__center center">
+          <div class="design__wrap" data-aos="animation-translate-y">
+            <div class="design__stage stage">Доступность</div>
+            <h2 class="design__title title">В любой точке мира<span class="title__color">.</span></h2>
+            <div class="design__info info">Наши уроки построены таким образом, чтобы вы могли получать знания где угодно и когда угодно</div>
+          </div>
+          <div class="design__hand" data-aos data-aos-duration="600"><img class="design__pic" src="img/hand-4.png" alt=""></div>
+          <div class="design__bg" data-aos data-aos-delay="400"><img class="design__pic" src="img/design-pic.png" alt=""></div>
+          <div class="design__circles">
+            <div class="design__circle js-rellax" data-rellax-speed="1"></div>
+            <div class="design__circle"></div>
+            <div class="design__circle js-rellax" data-rellax-speed=".5"></div>
+          </div>
+          <div class="design__body">
+            <div class="design__container">
+              <div class="design__slider js-design-slider">
+                <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="0">
+                  <div class="design__view">
+                    <div class="design__preview"><img class="design__pic" src="img/design-pic-1.png" alt=""></div>
+                  </div>
+                  <div class="design__details">
+                    <div class="design__info">Регистрация и доступ</div>
+                    <div class="design__text">Зарегистрировавшись, вы получите доступ к нашей образовательной платформе с необходимыми материалами.</div>
+                        <use xlink:href="img/sprite.svg#icon-arrow-right"></use>
+                      </svg></a>
+                  </div>
+                </div>
+                <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="200">
+                  <div class="design__view">
+                    <div class="design__preview"><img class="design__pic" src="img/design-pic-2.png" alt=""></div>
+                  </div>
+                  <div class="design__details">
+                    <div class="design__info">Интерактивное обучение</div>
+                    <div class="design__text">Мы предоставляем интерактивные модули и задания для эффективного изучения материала.</div>
+                  </div>
+                </div>
+                <div class="design__slide" data-aos="animation-translate-y" data-aos-delay="400">
+                  <div class="design__view">
+                    <div class="design__preview"><img class="design__pic" src="img/design-pic-3.png" alt=""></div>
+                  </div>
+                  <div class="design__details">
+                    <div class="design__info">Поддержка и менторство</div>
+                    <div class="design__text">Опытные менторы следят за вашим прогрессом и предоставляют консультации по вашей просьбе.</div>
+                  </div>
+                </div>
+                <div class="design__slide" data-aos="animation-translate-y">
+                  <div class="design__view">
+                    <div class="design__preview"><img class="design__pic" src="img/design-pic-1.png" alt=""></div>
+                  </div>
+                  <div class="design__details">
+                    <div class="design__info">Оценка и сертификат</div>
+                    <div class="design__text">По завершению курса вы получите оценку и сертификат, подтверждающий ваши навыки и знания.</div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="details__center center">
+          <div class="details__head" data-aos="animation-scale-y">
+            <h2 class="details__title title">LemoCode в цифрах<span class="title__color">.</span></h2>
+            <div class="details__info info">Наша цель - помочь каждому открыть свои лучшие качества и достичь целей.</div>
+          </div>
+          <div class="details__row">
+            <div class="details__container">
+              <div class="details__slider js-details-slider">
+                <div class="details__slide">
+                  <div class="details__counter"><span class="details__number">6</span> лет</div>
+                  <div class="details__text">Средний опыт наших преподавателей в сфере IT. P.s. Не 6 литров, а 6 лет. </div>
+                </div>
+                <div class="details__slide">
+                  <div class="details__counter"><span class="details__number">620+</span> </div>
+                  <div class="details__text">Столько студентов прошли свой путь с нашими преподавателями</div>
+                </div>
+                <div class="details__slide">
+                  <div class="details__counter"><span class="details__number">12</span></div>
+                  <div class="details__text">Спикеров-преподавателей из крупнейших IT компаний Казахстана</div>
+                </div>
+                <div class="details__slide">
+                  <div class="details__counter"><span class="details__number">93</span> %</div>
+                  <div class="details__text">Окончивших курс отмечают, что достигли хороших результатов</div>
+                </div>
+              </div>
+            </div>
+            <div class="details__graphic">
+              <div class="details__mobile"><img class="details__pic" src="img/mobile.svg" alt="">
+                <div class="details__box">
+                  <div class="details__chart" data-aos data-aos-offset="0" data-aos-delay="300" data-aos-duration="1000"><img class="details__pic" src="img/chart.svg" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="details__hand"><img class="details__pic js-parallax" data-scale="1.2" data-orientation="up" src="img/hand-5.png" alt=""></div>
+          <div class="details__line"><img class="details__pic" src="img/line-2.svg" alt=""></div>
+          <div class="details__circles">
+            <div class="details__circle"></div>
+            <div class="details__circle js-rellax" data-rellax-speed="-.5"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact_us" class="wrapper" style="background-color: #fff;">
+        <div class="contacts">
+          <div class="contacts__center center">
+            <div class="contacts__container">
+              <div class="contacts__wrap">
+                <h2 class="contacts__title h1" data-aos="animation-scale-y" data-aos-delay="200">Узнайте все о мире программирования за 30 минут</h2>
+                <div class="contacts__info" data-aos="animation-scale-y" data-aos-delay="400">Вебинар вам необходим, если устали от наемной работы, плохих условий, выбрали не то направление и хотите делать то, что приносит реальные результаты. Вы узнаете как начать менять свою жизнь</div>
+              </div>
+              <div class="contacts__row">
+                <div class="contacts__details" data-aos="animation-translate-y"><a class="contacts__line" href="mailto:hello@ui8.net">
+                  <div class="contacts__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="15" fill="none" viewBox="0 0 18 15">
+                      <path fill-rule="evenodd" d="M2.422.267C1.244.267.289 1.222.289 2.4v9.956c0 1.178.955 2.133 2.133 2.133h12.8c1.178 0 2.133-.955 2.133-2.133V2.4c0-1.178-.955-2.133-2.133-2.133h-12.8zM1.711 2.4a.71.71 0 0 1 .711-.711h12.8a.71.71 0 0 1 .711.711v9.956a.71.71 0 0 1-.711.711h-12.8a.71.71 0 0 1-.711-.711V2.4zm2.636.919a.71.71 0 1 0-1.006 1.006l4.978 4.978a.71.71 0 0 0 1.006 0l4.978-4.978a.71.71 0 1 0-1.006-1.006L8.822 7.794 4.347 3.319zm1.422 5.689a.71.71 0 0 1 0 1.006l-1.422 1.422a.71.71 0 1 1-1.006-1.006l1.422-1.422a.71.71 0 0 1 1.006 0zm7.111 0a.71.71 0 1 0-1.006 1.006l1.422 1.422a.71.71 0 1 0 1.006-1.006l-1.422-1.422z" fill="#4c40f7"></path>
+                    </svg>
+                  </div>
+                  <div class="contacts__text">lemocode@yandex.kz</div></a>
+
+                </div>
+                <form class="contacts__form" data-aos="animation-translate-y" data-aos-delay="200"
+                      action="https://formspree.io/f/mnqkoepo"
+                      method="POST"
+                >
+                  <div class="contacts__field field">
+                    <div class="field__wrap">
+                      <input class="field__input" type="text" name="name" placeholder="Имя"/>
+                      <div class="field__icon">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contacts__field field">
+                    <div class="field__wrap">
+                      <input class="field__input" type="email" name="email" placeholder="Email"/>
+                      <div class="field__icon">
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="contacts__field field">
+                    <div class="field__wrap">
+                      <input class="field__input" type="number" name="phone" placeholder="+7 747 747 4747"/>
+                      <div class="field__icon">
+
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="contacts__btn">
+                    <button type="submit" class="btn btn_purple"><span class="btn__text">Отправить</span>
+
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <!--<div class="contacts__social">
+                <div class="contacts__box" data-aos="animation-translate-y"><a class="contacts__link" href="index.html#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="#9f9fa9" d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"></path>
+                  </svg>
+                  <div class="contacts__text">Instagram</div></a></div>
+                <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="150"><a class="contacts__link" href="index.html#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="#9f9fa9" d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"></path>
+                  </svg>
+                  <div class="contacts__text">Telegram</div></a></div>
+                <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="300"><a class="contacts__link" href="index.html#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="#9f9fa9" d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"></path>
+                  </svg>
+                  <div class="contacts__text">Whatsapp</div></a></div>
+                <div class="contacts__box" data-aos="animation-translate-y" data-aos-delay="450"><a class="contacts__link" href="index.html#">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path fill="#9f9fa9" d="M12 0c2.056 0 4 1.944 4 4h0v8c0 2.056-1.944 4-4 4h0-8c-2.056 0-4-1.944-4-4h0V4c0-2.056 1.944-4 4-4h0zm0 2H4c-.935 0-2 1.065-2 2h0v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2h0V4c0-.935-1.065-2-2-2h0zM8 4c2.206 0 4 1.794 4 4s-1.794 4-4 4-4-1.794-4-4 1.794-4 4-4zm0 2c-1.103 0-2 .897-2 2s.897 2 2 2 2-.897 2-2-.897-2-2-2zm4.145-3.068a.96.96 0 1 1 0 1.92.96.96 0 1 1 0-1.92z"></path>
+                  </svg>
+                  <div class="contacts__text">YouTube</div></a></div>
+              </div> -->
+              <div class="figures">
+                <div class="figures__preview"><img class="figures__pic" src="img/content/figures-1.png" alt=""/></div>
+                <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.6" data-orientation="up" src="img/content/figures-2.png" alt=""/></div>
+                <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="1.3" data-orientation="up" src="img/content/figures-3.png" alt=""/></div>
+                <div class="figures__preview"><img class="figures__pic" src="img/content/figures-4.png" alt=""/></div>
+                <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2.3" data-orientation="down" src="img/content/figures-5.png" alt=""/></div>
+                <div class="figures__preview"><img class="figures__pic js-parallax" data-scale="2" data-orientation="up" src="img/content/figures-6.png" alt=""/></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--<div class="accord js-accord">
+        <div class="accord__center center">
+          <div class="accord__row">
+            <div class="accord__details">
+              <div class="accord__top" data-aos="animation-scale-y">
+                <div class="accord__title title title_sm">Technological maturity.</div>
+                <div class="accord__text">Collab is fast. Files are always up to date and ready for production. </div>
+              </div>
+              <ul class="accord__list" data-aos="animation-scale-y" data-aos-delay="200">
+                <li>Collab Cloud</li>
+                <li>Collab Design</li>
+                <li>Collab Share</li>
+                <li>Collab Code</li>
+              </ul>
+            </div>
+            <div class="accord__wrap">
+              <div class="accord__item js-accord-item active" data-aos="animation-scale-y">
+                <div class="accord__head js-accord-head">
+                  <div class="accord__icon"><img class="accord__pic" src="img/layout-3.svg" alt=""></div>
+                  <div class="accord__category">In research</div>
+                </div>
+                <div class="accord__body js-accord-body" style="display: block; background-image: url('img/accord-pic.png');">
+                  <ul class="accord__desc">
+                    <li>3+ user</li>
+                    <li>5 TB of secure storage</li>
+                    <li>Premium productivity features and simple, secure file sharing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accord__item js-accord-item" data-aos="animation-scale-y">
+                <div class="accord__head js-accord-head">
+                  <div class="accord__icon"><img class="accord__pic" src="img/layout-3.svg" alt=""></div>
+                  <div class="accord__category">Drafted</div>
+                </div>
+                <div class="accord__body js-accord-body" style="background-image: url('img/accord-pic.png');">
+                  <ul class="accord__desc">
+                    <li>3+ user</li>
+                    <li>5 TB of secure storage</li>
+                    <li>Premium productivity features and simple, secure file sharing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accord__item js-accord-item" data-aos="animation-scale-y">
+                <div class="accord__head js-accord-head">
+                  <div class="accord__icon"><img class="accord__pic" src="img/layout-3.svg" alt=""></div>
+                  <div class="accord__category">In development</div>
+                </div>
+                <div class="accord__body js-accord-body" style="background-image: url('img/accord-pic.png');">
+                  <ul class="accord__desc">
+                    <li>3+ user</li>
+                    <li>5 TB of secure storage</li>
+                    <li>Premium productivity features and simple, secure file sharing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accord__item js-accord-item" data-aos="animation-scale-y">
+                <div class="accord__head js-accord-head">
+                  <div class="accord__icon"><img class="accord__pic" src="img/layout-3.svg" alt=""></div>
+                  <div class="accord__category">Proposed</div>
+                </div>
+                <div class="accord__body js-accord-body" style="background-image: url('img/accord-pic.png');">
+                  <ul class="accord__desc">
+                    <li>3+ user</li>
+                    <li>5 TB of secure storage</li>
+                    <li>Premium productivity features and simple, secure file sharing</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="accord__item js-accord-item" data-aos="animation-scale-y">
+                <div class="accord__head js-accord-head">
+                  <div class="accord__icon"><img class="accord__pic" src="img/layout-3.svg" alt=""></div>
+                  <div class="accord__category">Completed</div>
+                </div>
+                <div class="accord__body js-accord-body" style="background-image: url('img/accord-pic.png');">
+                  <ul class="accord__desc">
+                    <li>3+ user</li>
+                    <li>5 TB of secure storage</li>
+                    <li>Premium productivity features and simple, secure file sharing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+      <div style="margin-top: 50px;" class="footer js-footer">
+        <div class="footer__center center">
+            <div class="footer__col"><a class="footer__logo" href="index.html#"><img class="footer__pic" src="img/Logo.png" alt=""></a></div>
+
+          <div class="footer__bottom">
+            <div class="footer__copyright">© 2023, LemoCode</div><a class="footer__scroll js-link-scroll" href="index.html#header">
+              <div class="footer__icon"><img class="footer__pic" src="img/scroll.svg" alt=""></div>
+              <div class="footer__text">На вверх</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="popup mfp-hide" id="popup-contact">
+        <div class="popup__wrap">
+          <div class="popup__head"><a class="popup__logo" href="index.html#"><img class="popup__pic" src="img/logo.svg" alt=""></a></div>
+          <div class="popup__body">
+            <div class="popup__title title">Get in touch<span class="title__color">.</span></div>
+            <div class="popup__info">Enter your detail below</div>
+            <form class="popup__form">
+              <div class="popup__field field">
+                <div class="field__label">Name</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/user.svg" alt=""></div><input class="field__input" type="text" name="name" placeholder="Name">
+                </div>
+              </div>
+              <div class="popup__field field">
+                <div class="field__label">Email</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/sending-mail.svg" alt=""></div><input class="field__input" type="email" name="email" placeholder="Email address">
+                </div>
+              </div>
+              <div class="popup__field field field_textarea">
+                <div class="field__label">Message</div>
+                <div class="field__wrap">
+                  <div class="field__icon"><img class="field__pic" src="img/message.svg" alt=""></div><textarea class="field__textarea" name="Message" placeholder="Message"></textarea>
+                </div>
+              </div><button class="popup__btn btn btn_purple" type="submit">Send now</button>
+            </form>
+            <div class="popup__circles">
+              <div class="popup__circle"></div>
+              <div class="popup__circle"></div>
+            </div>
+          </div>
+          <div class="popup__bg">
+            <div class="popup__preview"><img class="popup__pic" src="img/popup-pic-1.png" alt=""></div>
+            <div class="popup__preview"><img class="popup__pic" src="img/cursor-1.png" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/common.js"></script>
+  </body>
+</html>
