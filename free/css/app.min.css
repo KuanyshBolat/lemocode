@@ -2149,13 +2149,14 @@ a.btn {
         max-width: 100%; } }
     @media only screen and (max-width: 639px) {
       .main__wrap {
-        max-width: 230px; } }
+        max-width: 300px; } }
   .main__title {
     -webkit-perspective: 400px;
             perspective: 400px;
+      width: 80%;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-    margin-bottom: 181px; }
+    margin-bottom: 20px; }
     @media only screen and (max-width: 1279px) {
       .main__title {
         margin-bottom: 114px; } }
@@ -2435,7 +2436,7 @@ a.btn {
           background: #ECECEC; } }
   .details__title {
     margin-bottom: 72px;
-    font-size: 132px;
+    font-size: 70px;
     line-height: 1.02;
     letter-spacing: -1.3px;
     font-weight: 600; }
@@ -2457,7 +2458,11 @@ a.btn {
         line-height: 1.16667; } }
   @media only screen and (max-width: 767px) {
     .details__btn {
-      text-align: center; } }
+      text-align: center; }
+      .contacts__center{
+          margin-top: 60px;
+      }
+  }
   .details__btn .btn {
     min-width: 266px;
     height: 80px; }
@@ -2974,7 +2979,7 @@ body:not(.touch-device) .owl-item:hover .details__preview {
         margin-bottom: 140px; } }
     @media only screen and (max-width: 1279px) {
       .work__text {
-        max-width: 270px;
+        max-width: 350px;
         margin: 0; } }
   .work .scroll {
     color: #fff; }
