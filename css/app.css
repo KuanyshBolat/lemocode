@@ -7900,7 +7900,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     margin-bottom: 190px;
   }
   .work__title {
-    font-size: 90px;
+    font-size: 75px;
   }
   .work__wave {
     left: -150px;
@@ -9150,7 +9150,7 @@ body:not(.touch-device) .header__item:hover .header__body {
     padding-top: 80px;
   }
   .work__title {
-    font-size: 78px;
+    font-size: 70px;
   }
   .work__details {
     right: 50%;
