@@ -2764,7 +2764,7 @@ select {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 30%;
   opacity: .3;
 }
 
@@ -2827,8 +2827,8 @@ select {
 
 .work__item {
   position: relative;
-  min-height: 480px;
-  padding: 140px 30px 60px;
+  min-height: 200px;
+  padding: 80px 30px 60px;
   text-align: center;
 }
 
